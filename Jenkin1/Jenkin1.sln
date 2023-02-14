@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jenkin1", "Jenkin1\Jenkin1.csproj", "{EF2B0AB4-A5E5-402D-A882-992BD0E1B702}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{9C986C07-0D5B-4D55-ACF2-92D47DB686A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF2B0AB4-A5E5-402D-A882-992BD0E1B702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF2B0AB4-A5E5-402D-A882-992BD0E1B702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF2B0AB4-A5E5-402D-A882-992BD0E1B702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF2B0AB4-A5E5-402D-A882-992BD0E1B702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C986C07-0D5B-4D55-ACF2-92D47DB686A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C986C07-0D5B-4D55-ACF2-92D47DB686A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C986C07-0D5B-4D55-ACF2-92D47DB686A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C986C07-0D5B-4D55-ACF2-92D47DB686A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0542E68F-450B-494C-A833-46D843DBDA53}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+name: dockercompose17454207452112823997
+services:
+  jenkin1:
+    build:
+      context: C:\Users\gauravchaurasia\Desktop\DokerJenkin\Jenkin1
+      dockerfile: Jenkin1/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: jenkin1
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose17454207452112823997_default
